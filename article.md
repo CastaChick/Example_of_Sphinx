@@ -1,11 +1,3 @@
-## このディレクトリは[こちら]()のQiita記事の説明に用いたものです。
-
-
-
-以下Qiitaの記事と同じものを記載
-
-
-
 # はじめに
 
 現在着手している機械学習の自作ライブラリを作る際のテストやドキュメントの管理に[Sphinx](https://www.sphinx-doc.org/ja/master/)を使用してみようと思い立ち、いろいろいじってみたのですが思っていた構造にするのに手間取ったのでメモして共有します。 以下の記事は[こちら](https://qiita.com/NaokiHamada/items/0689cd85fb3e1adcda1a)の記事を参考にしてアップデートされた部分や詰まったところを重点的に書いていきます。
@@ -35,11 +27,11 @@ Sphinxを始める前の構成
 ├── article.md
 ├── docs
 ├── packages
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-37.pyc
-│   │   └── example.cpython-37.pyc
-│   └── example.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-37.pyc
+│   │   └── example.cpython-37.pyc
+│   └── example.py
 └── requirements.txt
 ```
 
@@ -158,40 +150,40 @@ $ make html
 ├── README.md
 ├── article.md
 ├── docs
-│   ├── Makefile
-│   ├── build
-│   │   ├── doctrees
-│   │   │   ├── environment.pickle
-│   │   │   ├── example.doctree
-│   │   │   └── index.doctree
-│   │   └── html
-│   │       ├── _modules
-│   │       │   ├── example.html
-│   │       │   └── index.html
-│   │       ├── _sources
-│   │       │   ├── example.rst.txt
-│   │       │   └── index.rst.txt
-│   │       ├── _static [16 entries exceeds filelimit, not opening dir]
-│   │       ├── example.html
-│   │       ├── genindex.html
-│   │       ├── index.html
-│   │       ├── objects.inv
-│   │       ├── py-modindex.html
-│   │       ├── search.html
-│   │       └── searchindex.js
-│   ├── make.bat
-│   └── source
-│       ├── _static
-│       ├── _templates
-│       ├── conf.py
-│       ├── example.rst
-│       └── index.rst
+│   ├── Makefile
+│   ├── build
+│   │   ├── doctrees
+│   │   │   ├── environment.pickle
+│   │   │   ├── example.doctree
+│   │   │   └── index.doctree
+│   │   └── html
+│   │       ├── _modules
+│   │       │   ├── example.html
+│   │       │   └── index.html
+│   │       ├── _sources
+│   │       │   ├── example.rst.txt
+│   │       │   └── index.rst.txt
+│   │       ├── _static [16 entries exceeds filelimit, not opening dir]
+│   │       ├── example.html
+│   │       ├── genindex.html
+│   │       ├── index.html
+│   │       ├── objects.inv
+│   │       ├── py-modindex.html
+│   │       ├── search.html
+│   │       └── searchindex.js
+│   ├── make.bat
+│   └── source
+│       ├── _static
+│       ├── _templates
+│       ├── conf.py
+│       ├── example.rst
+│       └── index.rst
 ├── packages
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-37.pyc
-│   │   └── example.cpython-37.pyc
-│   └── example.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-37.pyc
+│   │   └── example.cpython-37.pyc
+│   └── example.py
 └── requirements.txt
 ```
 
